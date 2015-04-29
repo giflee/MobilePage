@@ -1,0 +1,259 @@
+body {
+　　　　font: normal 100% Helvetica, Arial, sans-serif;
+　　}
+.wrapper{
+	width: 100%;
+
+}
+.top-bar{
+	width: 100%;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+.top-bar-in{
+	width: 90%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+.user-img{
+	float: left;
+	width: 6em;
+	height: 6em;
+	margin-right: 1em;
+}
+.user-img img{
+	width: 6em;
+	height: 6em;
+	float: left;
+}
+.right{
+	float: right;
+}
+.user-img-right{
+	line-height: 3em;
+	height: 6em;
+}
+.p-b{
+	color: #adadad;
+}
+.p-t{
+	font-size: 1.5em;
+}
+.add-class{
+	width: 100%;
+	height: 4.5em;
+}
+.add-class img{
+	width: 100%;
+	height: 4.5em;
+}
+.top-bar-in-padding{
+	
+	width: 90%;
+	padding-top: 1em;
+	
+}
+/*课程介绍和锻炼计划的部分*/
+.tab-out{
+	width: 100%;
+	
+}
+.tab-header{
+	width: 100%;
+	height: 4.5em;
+	
+}
+.tab-header-l{
+	width: 50%;
+	float: left;
+	
+	line-height: 4.5em;
+	border-top: 0.5em solid #fcd097;
+}
+.tab-header-r{
+	width: 50%;
+	float: left;
+	
+	line-height: 4.5em;
+	border-top: 0.5em solid #e7e7e7;
+	background-color: #e7e7e7;
+}
+.tab-header-l p{
+	font-size: 1.5em;
+	font-family: '微软雅黑'; 
+	line-height: 3em;
+	height: 3em;
+	text-align: center;
+}
+.tab-header-r p{
+	font-size:  1.5em;
+	font-family: '微软雅黑';
+	line-height: 3em;
+	height: 3em;
+	text-align: center;
+}
+.tab-header-l img,.tab-header-r img{
+	width: 1em;
+	height: 1em;
+}
+.tab-header-l-img,.tab-header-r-img{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+/*锻炼指导部分*/
+.coach-guild-in{
+
+}
+.coach-guild{
+	background-color: #f3f3f3;
+}
+.coach-guild-header-l p{
+	font-size: 1.5em;
+	font-family: '微软雅黑';
+	height: 3em;
+	line-height: 3em;
+	color: #a5a5a5;
+}
+.coach-guild-header-r p{
+	font-size: 1em;
+	height: 4.5em;
+	line-height: 4.5em;
+	color: #b0b0b0;
+}
+.coach-guild-header-l img{
+	width: 1em;
+	height: 1em;
+}
+.coach-guild-header-l{
+	width: 50%;
+	float: left;
+}
+.coach-guild-header-r{
+	width: 50%;
+	float: left;
+}
+.clearfix:after{
+	content: '.';
+	display: block;
+	height: 0;
+	visibility: hidden;
+	clear:both;
+}
+.coach-guild-header-l-img{
+	display: inline-block;
+	margin-right: 0.5em;
+}
+.coach-guild-con-in-img{
+	width: 60%;
+	float: left;
+	height: 10em;
+}
+.coach-guild-con-in-img img{
+	width: 100%;
+	height: 10em;
+}
+.coach-title{
+	font-size: 1.25em;
+	font-family: '微软雅黑';
+	line-height: 2em;
+}
+.coach-act{
+	font-size: 0.5em;
+	font-family: '微软雅黑';
+	color: #a1a1a1;
+}
+.coach-guild-header-r img{
+	width: 0.8em;
+	height: 0.8em;
+}
+.coach-guild-con{
+	margin-bottom: 1em;
+	background-color: #fff;
+	position: relative;
+}
+.coach-guild-con-in{
+	width: 100%;
+}
+.coach-guild-con-r{
+	padding-left: 1em;
+}
+.wrapper-right{
+	width: 40%;
+	float: left;
+}
+/*评论部分*/
+.coach-guild-header-l-img img{
+	width: 1em;
+	height: 1em;
+}
+.coach-mess-header-l p{
+	font-size: 1.5em;
+	font-family: '微软雅黑';
+	height: 3em;
+	line-height: 3em;
+	color: #a5a5a5;
+}
+.mess-img{
+	width: 5em;
+	height: 5em;
+	float: left;
+	margin-right: 1em;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.mess-img img{
+	width: 5em;
+	height: 5em;
+}
+.mess-img-r{
+	
+}
+.mess-img-r-con{
+	
+}
+.mess-img-r-con p{
+	height: 5em;
+	line-height: 5em;
+}
+.mess-name{
+	font-size: 1.5em;
+}
+.mess-text{
+	font-size: 1.5em;
+	color: #828282;
+}
+.pos{
+	float: right;
+	position: absolute;
+	bottom: 2%;
+	right: 2%;
+}
+.margin-icon{
+	margin-right: 0.5em;
+}
+.num{
+	margin-right: 1em;
+}
+.see-all{
+	margin-right: 0.5em;
+}
+.tab-con{
+	background-color: #f3f3f3;
+	line-height: 2em;
+	padding-bottom: 1em;
+	padding-top: 1em;
+	border-bottom: 0.1em solid #dedede;
+}
+.tab-con-in{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+.text-area{
+	text-indent: 2em;
+}
+.tab-l{
+	color: #f09827;
+}
+.tab-header-l{
+	background-color: #f3f3f3;
+}
